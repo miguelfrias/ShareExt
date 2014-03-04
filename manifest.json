@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ShareExt",
+  "description": "Share the current URL on social websites like Facebook, Twitter, Google Plus and LinkedIn.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ShareExt.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab", "tabs"
+  ]
+}
